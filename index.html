@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DPD Hack Day 2019</title>
+    <link rel="stylesheet" href="css/css.css" type="text/css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/horta" type="text/css"/>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+</head>
+<body>
+<div id="container">
+    <header>
+        <h1>Rock, Paper, Scissors, Lizard &amp; Spock</h1>
+    </header>
+    <!-- scoreboard -->
+    <div class="scoreboard">
+        <div id="label-user" class="badge">User</div>
+        <div id="label-comp" class="badge">Computer</div>
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+    <!-- area of result -->
+    <div class="result">
+        <p></p>
+    </div>
+    <!-- area of selection - 5 choices -->
+    <div class="images-container">
+        <div class="image" id="r">
+            <img src="images/rock.png" alt="rock icon">
+        </div>
+        <div class="image" id="p">
+            <img src="images/paper.png" alt="paper icon">
+        </div>
+        <div class="image" id="s">
+            <img src="images/scissors.png" alt="scissors icon">
+        </div>
+        <div class="image" id="l">
+            <img src="images/lizard.png" alt="lizard icon">
+        </div>
+        <div class="image" id="sp">
+            <img src="images/spock.png" alt="spock icon">
+        </div>
+    </div>
+    <!-- area of rules -->
+        <h2>Rules</h2>
+        <div id="rules">
+            <ul>
+                <li>Scissors cuts Paper</li>
+                <li>Paper covers Rock</li>
+                <li>Rock crushes Lizard</li>
+                <li>Lizard poisons Spock</li>
+                <li>Spock smashes Scissors</li>
+                <li>Scissors decapitates Lizard</li>
+                <li>Lizard eats Paper</li>
+                <li>Paper disproves Spock</li>
+                <li>Spock vaporizes Rock</li>
+                <li>(and as it always has) Rock crushes Scissors</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="https://www.michellecampbelldesign.com" target="_blank">Website</a></li>
+        </ul>
+    </footer>
+    <!-- end of container -->
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/app.js"></script>
+</html>

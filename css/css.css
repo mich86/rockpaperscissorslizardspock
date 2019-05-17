@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0099f6;
+    font-family: 'HortaRegular', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    padding: 50px;
+    background: white;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+.scoreboard {
+    margin: 40px auto;
+    border: 3px solid white;
+    text-align: center;
+    width: 200px;
+    padding: 15px 20px;
+    position: relative;
+    font-size: x-large;
+    border-radius: 4px;
+}
+
+.badge {
+    background: #599693;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+#label-user {
+    position: absolute;
+    left: -20px;
+}
+
+#label-comp {
+    position: absolute;
+    right: -35px;
+}
+
+
+#user-score, #comp-score {
+    position: relative;
+    font-size: xx-large;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+}
+
+.result p {
+    font-size: x-large;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+
+#rules {
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+#rules ul li {
+    list-style-type: none;
+    letter-spacing: 1px;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.image {
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image img {
+    border-radius: 50%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    background: #ffffff;
+}
+
+footer ul {
+    margin: 10px 0 0 0;
+}
+
+footer ul li {
+    display: inline;
+}
+
+footer ul li a {
+    color: #0099f6;
+    padding: 8px;
+    font-size: larger;
+    letter-spacing: 1px;
+}
